@@ -1,0 +1,227 @@
+header{
+    height: 600px;
+    position: relative;
+    background-color: #341f97;
+    border-radius:0% 0% 100% 100% / 67% 100% 80% 68% ; 
+}
+.circle{
+ height: 300px;
+ width: 300px;
+ border-radius: 50%;
+ background-color: #5f27cd;
+ bottom: 0;
+ right: 10%;
+ position: absolute;
+ box-shadow: 30px 30px inset #686de0;
+
+}
+.c{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #5f27cd;
+    border-radius: 0% 48% 42% 54% / 100% 100% 29% 100% ;
+    transform: rotate(-20deg);
+}
+.dotts{
+    height: 10px;
+    width: 10px;
+    background-color: #5f27cd;
+    border-radius: 50%;
+   position: absolute;
+ animation: animStar 5s linear infinite;
+ left: 34%;
+ bottom: 20%;
+
+}
+.dotts2{
+    height: 10px;
+    width: 10px;
+    background-color: #5f27cd;
+    border-radius: 50%;
+   position: absolute;
+ animation: animStar 10s linear infinite;
+ left: 32%;
+ bottom: 20%;
+
+}
+.dotts3{
+    height: 10px;
+    width: 10px;
+    background-color: #5f27cd;
+    border-radius: 50%;
+   position: absolute;
+ animation: animStar 7s linear infinite;
+ left: 30%;
+ bottom: 20%;
+
+}
+@keyframes animStar{
+  from { 
+    transform: translatey(0px)
+    }
+  to{        
+    transform: translatey(-1000px)
+    }
+}
+.dotts4{
+    height: 10px;
+    width: 10px;
+    background-color: #5f27cd;
+    border-radius: 50%;
+   position: absolute;
+ animation: anim 5s linear infinite;
+ left: 30%;
+ bottom: 24%;
+
+}
+.dotts5{
+    height: 10px;
+    width: 10px;
+    background-color: #5f27cd;
+    border-radius: 50%;
+   position: absolute;
+ animation: anim 10s linear infinite;
+ left: 30%;
+ bottom: 22%;
+
+}
+.dotts6{
+    height: 10px;
+    width: 10px;
+    background-color: #5f27cd;
+    border-radius: 50%;
+   position: absolute;
+ animation: anim 7s linear infinite;
+ left: 30%;
+ bottom: 20%;
+
+}
+@keyframes anim{
+  from { 
+    transform: translatex(0px)
+    }
+  to{        
+    transform: translatex(-1000px)
+    }
+}
+header ul li a{
+    margin: 0 20px;
+}
+@media (max-width: 800px){
+
+     header ul{
+        background-color: rgba(0, 0, 0,.7);
+        z-index: 2;
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+     }
+}
+
+.text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 300px;
+    z-index: 1;
+
+}
+.text p{
+    color: #c23616;
+}
+.text a{
+    border-radius: 20px;
+    width: 200px
+}
+
+.part1{
+    padding: 20px 0;
+}
+.part1 i{
+    padding: 20px 0;
+}
+.part1 i:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+.part2{
+    background-color: #dff9fb;
+    border-radius: 0% 45% 81% 70% / 76% 100% 18% 64%   ;
+    padding-top: 20px;
+}
+@media (max-width: 600px){
+    .part2{
+        padding: 0 50px;
+    }
+}
+.text2 ,.circle2{
+    padding: 20px 0;
+}
+.text2 ul li{
+    list-style: none;
+}
+.text2 ul li i{
+    color: #341f97;
+
+}
+.text2 a{
+    background-color:#c23616; 
+}
+.circle2{
+    background: radial-gradient(#1e3799, #6a89cc);
+     height: 200px;
+  width: 200px;
+  border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
+  transition: all 1.5s ease;
+}
+.circle2 p {
+    padding: 100px 50px;
+  animation: typing 4s steps(35);
+  overflow: hidden;
+  animation-iteration-count: 3;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 4px solid #ffffff;
+  color: #ffffff;
+  
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 35ch;
+  }
+}
+.part3{
+    padding: 50px 0;
+}
+.part3 i{
+    padding: 20px 0;
+    color: #341f97;
+}
+footer{
+    background-color: black;
+    padding: 50px 0;
+}
+footer ul li:hover{
+    color:#c23616; 
+}
+footer ul li:first-child{
+    color:#c23616; 
+}
+footer hr{
+    color:#341f97;
+    font-size: 5px; 
+}
+footer h3{
+    padding: 10px;
+}
+footer h3:hover{
+border-bottom: 5px solid #341f97;
+}
